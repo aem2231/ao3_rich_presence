@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "AO3 Discord Presence",
+  "version": "0.1",
+  "description": "Sends AO3 tab info to Python Discord RPC",
+  "background": {
+    "scripts": ["plugin.js"]
+  },
+  "permissions": ["tabs"],
+  "icons": {
+    "48": "icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "blahblah@blah"
+    }
+  }
+}
